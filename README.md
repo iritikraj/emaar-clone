@@ -8,13 +8,8 @@
 
 A premium redesign of Emaar's homepage featuring luxury UI/UX design, AI-powered chatbot integration, and seamless dark/light mode functionality.
 
-## 🎥 Demo
-
-<div align="center">
-  <img src="[[https://via.placeholder.com/800x450/1a1a1a/ffffff?text=Emaar+Luxury+Redesign+Demo](https://cdn.loom.com/sessions/thumbnails/7b2bcd5a1a1946fd8a8cdb51316e01e9-a2fdf64643129f13-full-play.gif)](https://cdn.loom.com/sessions/thumbnails/7b2bcd5a1a1946fd8a8cdb51316e01e9-a2fdf64643129f13-full-play.gif)" alt="Emaar Luxury Redesign Demo" width="100%" />
-</div>
-
-> **Note:** Replace the placeholder above with actual screenshots or demo GIF of your project
+## 🎥 Demo  
+[Click here to view the demo](https://www.loom.com/share/7b2bcd5a1a1946fd8a8cdb51316e01e9?sid=4de4f950-b209-49d2-a9b4-b40b29266865)
 
 ## ✨ Features
 
