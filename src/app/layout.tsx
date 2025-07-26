@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Emaar Premium | Luxury Real Estate',
   description: "Discover extraordinary living in the world's most prestigious addresses. Made with ❤️ by Ritik",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

@@ -2,7 +2,6 @@
 
 import { OpenAI } from 'openai'
 import { createDataStreamResponse } from 'ai'
-import { NextRequest } from 'next/server';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
@@ -35,6 +34,7 @@ export async function POST(req: Request) {
     Current Date: ${new Date().toLocaleDateString()}`
   }
   const response = createDataStreamResponse({
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     execute: async (stream: any) => {
       try {
         const response = await openai.chat.completions.create({

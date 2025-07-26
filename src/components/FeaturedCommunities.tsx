@@ -28,7 +28,15 @@ const neighbourhoods = [
   },
 ];
 
-export function NeighborhoodCard({ neighborhood }) {
+type Neighborhood = {
+  name: string;
+  image: string;
+  link: string;
+  description?: string;
+};
+
+
+export function NeighborhoodCard({ neighborhood }: { neighborhood: Neighborhood }) {
   return (
     <CardContainer className="inter-var w-full">
       <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-4 sm:p-6 border">
@@ -93,7 +101,7 @@ export function FeaturedCommunities3DCard() {
 }
 
 // Alternative single card component if you need to use individually
-export function SingleNeighborhoodCard({ neighborhood }) {
+export function SingleNeighborhoodCard({ neighborhood }: { neighborhood: Neighborhood }) {
   if (!neighborhood) {
     return null;
   }

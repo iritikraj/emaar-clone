@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { motion, AnimatePresence } from "motion/react";
+import { motion, AnimatePresence, Variants } from "motion/react";
 import React, { useEffect, useState } from "react";
 
 export const ImagesSlider = ({
@@ -70,6 +70,7 @@ export const ImagesSlider = ({
     window.addEventListener("keydown", handleKeyDown);
 
     // autoplay
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let interval: any;
     if (autoplay) {
       interval = setInterval(() => {
@@ -83,7 +84,7 @@ export const ImagesSlider = ({
     };
   }, []);
 
-  const slideVariants = {
+  const slideVariants: Variants = {
     initial: {
       scale: 0,
       opacity: 0,
